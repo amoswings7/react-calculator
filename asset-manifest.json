@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/amoswings7.github.io/react-calculator/static/css/main.89ad820a.chunk.css",
-    "main.js": "/amoswings7.github.io/react-calculator/static/js/main.bb45c3e8.chunk.js",
-    "main.js.map": "/amoswings7.github.io/react-calculator/static/js/main.bb45c3e8.chunk.js.map",
-    "runtime-main.js": "/amoswings7.github.io/react-calculator/static/js/runtime-main.a479b647.js",
-    "runtime-main.js.map": "/amoswings7.github.io/react-calculator/static/js/runtime-main.a479b647.js.map",
-    "static/js/2.41d90729.chunk.js": "/amoswings7.github.io/react-calculator/static/js/2.41d90729.chunk.js",
-    "static/js/2.41d90729.chunk.js.map": "/amoswings7.github.io/react-calculator/static/js/2.41d90729.chunk.js.map",
-    "index.html": "/amoswings7.github.io/react-calculator/index.html",
-    "static/css/main.89ad820a.chunk.css.map": "/amoswings7.github.io/react-calculator/static/css/main.89ad820a.chunk.css.map",
-    "static/js/2.41d90729.chunk.js.LICENSE.txt": "/amoswings7.github.io/react-calculator/static/js/2.41d90729.chunk.js.LICENSE.txt"
+    "main.css": "/react-calculator/static/css/main.89ad820a.chunk.css",
+    "main.js": "/react-calculator/static/js/main.bb45c3e8.chunk.js",
+    "main.js.map": "/react-calculator/static/js/main.bb45c3e8.chunk.js.map",
+    "runtime-main.js": "/react-calculator/static/js/runtime-main.ab650852.js",
+    "runtime-main.js.map": "/react-calculator/static/js/runtime-main.ab650852.js.map",
+    "static/js/2.41d90729.chunk.js": "/react-calculator/static/js/2.41d90729.chunk.js",
+    "static/js/2.41d90729.chunk.js.map": "/react-calculator/static/js/2.41d90729.chunk.js.map",
+    "index.html": "/react-calculator/index.html",
+    "static/css/main.89ad820a.chunk.css.map": "/react-calculator/static/css/main.89ad820a.chunk.css.map",
+    "static/js/2.41d90729.chunk.js.LICENSE.txt": "/react-calculator/static/js/2.41d90729.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a479b647.js",
+    "static/js/runtime-main.ab650852.js",
     "static/js/2.41d90729.chunk.js",
     "static/css/main.89ad820a.chunk.css",
     "static/js/main.bb45c3e8.chunk.js"
