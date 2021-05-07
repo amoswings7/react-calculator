@@ -1,0 +1,121 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height:100vh;
+}
+#parent-display{
+  width:100%;
+  height:3cm;
+  margin-bottom: 15px;
+}
+#parent-display .current-display{
+  height:66.5%;
+  width:100%;
+  background-color: rgb(24, 24, 24);
+  font-size:20px;
+  color:white;
+  padding:10px
+}
+#parent-display .answer-display{
+  height:33.5%;
+  width:100%;
+  background-color: rgb(24, 24, 24);
+  color:rgb(255, 255, 255,0.7);
+  padding:10px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.App{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height:100vh
+}
+.container{
+  width:410px;
+  height:fit-content;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-self: center;
+  align-self: center;
+}
+
+.calculator{
+  width:100%;
+  height:fit-content;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(5,1.5cm);
+  grid-gap:3px;
+  background-color: white;
+}
+#header{
+  text-align: center;
+}
+.all_btn{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  font-weight: bold;
+}
+.operators{
+  background-color: rgb(10, 141, 248);
+  color:white;
+  font-weight: bold;
+}
+.operators:hover{
+  background-color: rgb(11, 107, 185);
+}
+.equals{
+  background:rgb(18, 78, 18);
+  color:white;
+  font-weight: bold;
+}
+.equals:hover{
+  background:rgb(30, 126, 30);
+}
+.clear{
+  color:orange;
+  background-color: rgb(36, 36, 36);
+  border-bottom: 2px solid orange;
+}
+.clear:hover{
+  color: rgb(179, 122, 16);
+}
+.numbers{
+  border: 2px solid  rgb(10, 141, 248);
+  color: black;
+  transition: all;
+  transition-duration: 0.2s;
+}
+.numbers:hover{
+  background-color: rgb(10, 141, 248);
+}
+.brackets{
+  color:rgb(255, 165, 0);
+  border-bottom: 2px solid rgb(255, 165, 0);
+  background-color: rgb(131, 87, 5);
+}
+.brackets:hover{
+  color: rgb(36, 36, 36);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+  .container{
+    width:95%;
+  }
+}
